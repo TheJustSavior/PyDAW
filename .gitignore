@@ -1,0 +1,46 @@
+# Build directories
+build/
+dist/
+*.egg-info/
+_skbuild/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editors
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test artifacts
+tests/_tmp/
+*.log
+build_log.txt
+vst_host*.log
+serum2_vst_host.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+*.spec
+build_pyinstaller/
+dist_pyinstaller/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Project files
+*.pydaw
+!examples/*.pydaw
