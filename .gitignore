@@ -44,3 +44,8 @@ ENV/
 # Project files
 *.pydaw
 !examples/*.pydaw
+
+# Internal documentation
+GITHUB_PUBLISH.md
+READY_TO_PUBLISH.md
+RELEASE_CHECKLIST.md
