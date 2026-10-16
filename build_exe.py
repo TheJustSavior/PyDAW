@@ -23,7 +23,7 @@ print(f"  VST host: {vst_host} - {'OK' if vst_host.exists() else 'MISSING'}")
 args = [
     str(project_root / 'run_pydaw.py'),  # Entry point
     '--name=PyDAW',
-    '--windowed',  # No console window
+    '--console',  # Keep a console window so crash tracebacks stay visible
     '--onedir',  # Directory bundle (easier to debug than onefile)
     
     # Include data files
