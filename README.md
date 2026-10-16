@@ -9,7 +9,7 @@ Digital Audio Workstation with a Python UI (PySide6) and a C++ audio engine (RtA
 ## 🎵 Features
 
 - **Multi-track timeline**: drag & drop audio files (WAV/FLAC/MP3/AIFF) onto tracks, move clips, zoom with the mouse wheel (Ctrl+wheel), click on empty space to seek
-- **Real-time playback**: WASAPI, 48 kHz, mixing with gain/pan/mute/solo per track
+- **Real-time playback**: WASAPI, ASIO, 48 kHz, mixing with gain/pan/mute/solo per track
 - **Master section**: master volume, limiter, peak meters
 - **Waveforms**: clip waveform display (peak cache computed in C++)
 - **Undo/Redo**: full undo support for track and clip operations
